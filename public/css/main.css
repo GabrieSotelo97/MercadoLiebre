@@ -1,0 +1,71 @@
+
+main{
+    width: 90%; 
+    margin-left: 3%;  
+}
+
+article img{
+    
+    width: 100%;
+}
+article {
+    margin-top: 10px; 
+    margin-left: 5%;
+    background-position: center;
+    background-size: 100%;
+}
+h2{
+    font-size: 24px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+main section article h3{
+    font-size: 16px;
+    padding-top: 15px;
+    color: var(--GrisOscuro);
+    font-weight: 100;
+    display: none;
+}
+.detalles{
+    border-top: 1px solid  --GrisClaro;
+    padding: 15px;
+    background-color: white;
+}
+.precio{
+    font-size: 18px;
+}
+.oferta{
+    font-size: 16px;
+    color: var(--Verde);
+}
+.detalles i{
+    font-size: 10px;
+    color: var(--Verde);
+    background-color: white;
+    border: 1px solid var(--Verde);
+    border-radius: 50%;
+}
+.fa-truck{
+    color: red;
+}
+
+
+
+
+@media(min-width:361px){
+
+    main section article h3{
+        display: block;
+    }
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+
+
+
+
+@media(min-width:769px){
+    
+}

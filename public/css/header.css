@@ -1,0 +1,125 @@
+
+header{
+    background-color: var(--Amarillo);
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+
+.logo{
+    width: 35%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.banner{
+    display: none;
+    width: 100%;
+}
+button span i{
+    padding: 0;
+}
+
+
+
+.burger-menu {
+    text-align: center;
+}
+i {
+    font-size: 20px;
+    background-color: var(--Celeste);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+span i {
+    font-size: 12px;
+    background-color: white;
+    color: var(--GrisOscuro);
+    padding: 5px;
+    margin: 3px 0 0 0;
+    border-radius: 0%;
+}
+.box{
+    margin-left: 15px;
+}
+h4 i{
+    font-size: 15px;
+    background-color: var(--Amarillo);
+    color: black;
+    border-radius: 0%;
+    padding-right: 1px;
+}
+body h4{
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+nav ul li a{
+    color: black;
+    text-decoration: none; 
+    font-weight: 400;
+}
+nav ul li {
+    list-style: none;
+    
+}
+
+nav ul {
+    margin-bottom: 15px;
+    
+}
+header nav ul li i{
+    background-color: var(--Amarillo);
+    color:black;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 0;
+}
+.lista2 li{
+    padding-bottom: 0px;
+    margin-bottom: -7px;
+}
+nav{
+    display: none;
+}
+
+
+@media(min-width:361px){
+    header{
+        padding-bottom: 0;
+    }
+    nav{
+        display: block;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    .banner{
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 0;
+    }
+    .burger-menu{
+        display: none;
+    }
+    nav ul {
+        margin-bottom:0;
+    }
+    header nav ul li i{
+        padding: 0;
+        font-size: 10px;
+        margin-top: 0;
+        padding-left: 2px;
+    } 
+    .lista2 li{
+        padding-bottom: 0px;
+        margin-bottom: 0;
+    }
+}
+
+
+
+@media(min-width:769px){
+    
+}
