@@ -1,10 +1,11 @@
 
 footer{
+    display: flex;
+    flex-direction: column;
     margin-top: 5px;
     padding-top: 60px;
+    padding-bottom: 5px;
     background-color: white;
-    margin-left: 7px;
-    margin-right: 7px;
     text-align: center;
 }
 footer section{
@@ -23,12 +24,12 @@ footer section i{
     margin-bottom: 10px;
 }
 .copy{
-    margin-left: -40px;
-    padding-bottom: 25px;
+    display: flex;
 }
 
 
 @media(min-width:361px){
+
     
 }
 

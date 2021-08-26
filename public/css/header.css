@@ -3,21 +3,23 @@ header{
     background-color: var(--Amarillo);
     padding-bottom: 30px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
 .logo{
-    width: 35%;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-bottom: 20px;
+    width: 50%;
+    padding: 15px;
+    padding-right: 5px;
 }
-.banner{
-    display: none;
-    width: 100%;
-}
+
+
 button span i{
-    padding: 0;
+    padding: 4px 2px 7px 1px;
+    font-size: 10px;
+    
 }
 
 
@@ -26,7 +28,7 @@ button span i{
     text-align: center;
 }
 i {
-    font-size: 20px;
+    font-size: 18px;
     background-color: var(--Celeste);
     color: white;
     padding: 10px;
@@ -39,9 +41,30 @@ span i {
     padding: 5px;
     margin: 3px 0 0 0;
     border-radius: 0%;
+    border-radius: 5px;
 }
 .box{
-    margin-left: 15px;
+    width: 50%;
+    position: relative;
+    
+}
+.container-1{
+    padding: 15px 20px 1px 1px;
+    
+}
+.container-1 input{
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.box button{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    border: none;
+    border-radius: 5px;
 }
 h4 i{
     font-size: 15px;
@@ -53,7 +76,9 @@ h4 i{
 body h4{
     text-align: center;
     margin-bottom: 5px;
-
+    width: 100%;
+    font-size: .8rem;
+    margin-top: -10px;
 }
 nav ul li a{
     color: black;
@@ -88,17 +113,64 @@ nav{
 @media(min-width:361px){
     header{
         padding-bottom: 0;
+        padding-top: 10px;
+    }
+    .logo{
+        width: 35%;
+    }
+    .box{
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    body header h4{
+        width: 35%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+
+    }
+    .container-1{
+        width: 85%;
+        padding: 0;
+    }
+    .container-1 input{
+        padding: 0;
+        border-radius: 1px;
+    }
+    .box button{
+        width: 10%;
+        top: 30px;
+        position: static;
+        border-radius: 1px;
+    }
+    button span i{
+        padding: 0px;
+        font-size: 9px;
     }
     nav{
-        display: block;
+        display: flex;
         margin-left: 5px;
         margin-top: 20px;
-    }
-    .banner{
-        display: block;
         width: 100%;
-        margin-top: 30px;
-        padding-bottom: 0;
+        padding-bottom: 10px;
+    }
+    nav ul.lista1{
+        display: flex;
+        width: 50%;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    
+    
+    nav ul.lista2 {
+        display: flex;
+        width: 50%;
+        text-align: center;
+        justify-content: space-evenly;
     }
     .burger-menu{
         display: none;
@@ -122,4 +194,19 @@ nav{
 
 @media(min-width:769px){
     
+    nav ul.lista1{
+        display: flex;
+        width: 40%;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    nav ul.lista2 {
+        display: flex;
+        width: 40%;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    nav{
+        justify-content: space-between;
+    }
 }
