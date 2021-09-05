@@ -209,4 +209,13 @@ nav{
     nav{
         justify-content: space-between;
     }
+    .container-1 input{
+        font-size: 20px;
+    }
+    .box button {
+        font-size: 16px;
+    }
+    .box button i{
+        font-size: 16px;
+    }
 }

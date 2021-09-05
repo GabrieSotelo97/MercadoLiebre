@@ -4,20 +4,20 @@
     display: none;
     width: 100%;
 }
-main section{
+main.home section{
     width: 90%;
     margin: 0 auto; 
 }
-main article img{
+main.home article img{
     
     width: 100%;
 }
-main article {
+main.home article {
     background-color: white;
     margin-top: 10px; 
     
 }
-main .detalles{
+main.home .detalles{
     border-top: 1px solid  var(--GrisClaro);
     padding: 15px;
     position: relative;
@@ -25,12 +25,12 @@ main .detalles{
     align-items: flex-end;
 }
 
-main h2{
+main.home h2{
     font-size: 24px;
     margin-top: 5%;
     width: 100%;
 }
-main section article h3{
+main.home section article h3{
     font-size: 16px;
     padding-top: 15px;
     color: var(--GrisOscuro);
@@ -38,16 +38,16 @@ main section article h3{
     display: none;
 }
 
-main .precio{
+main.home .precio{
     font-size: 18px;
     width: 30%;
 }
-main .oferta{
+main.home .oferta{
     font-size: 16px;
     width: 70%;
     color: var(--Verde);
 }
-main section article div.detalles i{
+main.home section article div.detalles i{
     position: absolute;
     right: 20px;
     top:-15px;
@@ -66,22 +66,22 @@ main section article div.detalles i{
 
 
 @media(min-width:361px){
-    main .detalles {
+    main.home .detalles {
         flex-wrap: wrap;
         width: 100%;
     }
 
-    main section article h3{
+    main.home section article h3{
         display: block;
         width: 100%;
         margin-left: 5px;
     }
-    main section{
+    main.home section{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    main section article{
+    main.home section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 49%;
     }
@@ -91,11 +91,11 @@ main section article div.detalles i{
         padding-bottom: 0;
         margin: 0 auto;
     }
-    main .precio{
+    main.home .precio{
         text-align: center;
         overflow-wrap: break-word;
     }
-    main .oferta{
+    main.home .oferta{
         text-align: left;
         text-align: top;
     }
@@ -109,7 +109,7 @@ main section article div.detalles i{
 
 
 @media(min-width:769px){
-    main section article{
+    main.home section article{
         width: 22%;
     }
 }
