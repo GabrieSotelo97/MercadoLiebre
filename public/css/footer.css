@@ -29,7 +29,7 @@ footer section i{
 
 
 @media(min-width:361px){
-
+    
     
 }
 
@@ -37,5 +37,18 @@ footer section i{
 
 
 @media(min-width:769px){
+    footer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .copy{
+        margin-top: 15px;
+        width: 100%;
+    }
+    footer section{
+        width: 32%
+    };
+    
     
 }

@@ -39,19 +39,19 @@ main.home section article h3{
 }
 
 main.home .precio{
-    font-size: 18px;
-    width: 30%;
+    font-size: 17px;
+    width: 55%;
 }
 main.home .oferta{
     font-size: 16px;
-    width: 70%;
+    width: 45%;
     color: var(--Verde);
 }
 main.home section article div.detalles i{
     position: absolute;
     right: 20px;
     top:-15px;
-    font-size: 10px;
+    font-size: 16px;
     color: var(--Verde);
     background-color: white;
     border: 1px solid var(--Verde);
@@ -91,18 +91,12 @@ main.home section article div.detalles i{
         padding-bottom: 0;
         margin: 0 auto;
     }
-    main.home .precio{
-        text-align: center;
-        overflow-wrap: break-word;
-    }
+   
     main.home .oferta{
         text-align: left;
         text-align: top;
+        /* text-align:right; */
     }
-
-
-
-    
 }
 
 
@@ -110,6 +104,6 @@ main.home section article div.detalles i{
 
 @media(min-width:769px){
     main.home section article{
-        width: 22%;
+        width: 23%;
     }
 }

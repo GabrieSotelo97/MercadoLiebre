@@ -26,10 +26,26 @@ margin-top: 10px;
 .register .par1 input{
     height: 25px;
     }
+.register .par2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+}
 .register .par2 h3{
     font-size: 22px;
     margin-bottom: 15px;
     margin-top: 5px;
+    width: 100%;
+}
+.register .par2 input{
+    margin-left: 15px;
+    margin-right: 5px;
+    
+}
+.register .par2 label{
+    margin-left: 15px;
+    margin-right: 5px;
+    width: 75%;
 }
 .register .par3{
     display: flex;
@@ -63,8 +79,58 @@ margin-top: 10px;
 .register form input.boton{
     width: 50%;
     margin: 0 auto 15px;
+    color: white;
+    background-color: var(--Celeste);
+    font-size: 18px;
 }
 
 
 
-   
+@media(min-width:361px){
+
+.register .par2{
+    justify-content: center;
+}
+.register .par2 h3{
+    width: 100%;
+    text-align: center;
+}
+.register .par2 .input{
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+}
+.register .par2 .input1{
+    width: 50%;
+}
+.register .par2 input{
+    width: 15%;
+    margin: 0;
+}
+.register .par2 label{
+    margin-left: 5px;
+    
+}
+
+.register .par3{
+    flex-direction: row;
+    justify-content: center;
+}
+.register .par3 h3{
+    
+    text-align: center;
+}
+.register .par3 div{
+    width: auto;
+    margin-left: 15px;
+}
+    
+    
+}
+
+
+
+@media(min-width:769px){
+    
+    
+}
