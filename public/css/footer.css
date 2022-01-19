@@ -28,12 +28,6 @@ footer section i{
 }
 
 
-@media(min-width:361px){
-    
-    
-}
-
-
 
 
 @media(min-width:769px){
@@ -52,3 +46,9 @@ footer section i{
     
     
 }
+
+footer section i:hover{
+        
+    color: var(--Amarillo);
+       
+    };

@@ -82,7 +82,7 @@ main.home section article div.detalles i{
         justify-content: space-between;
     }
     main.home section article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
         width: 49%;
     }
     .banner{
@@ -106,4 +106,30 @@ main.home section article div.detalles i{
     main.home section article{
         width: 23%;
     }
+    main.home section article h3{
+        color: transparent;
+        width: 100%;
+        margin-left: 5px;
+    }
+    main.home section article h3:hover{
+        color: black;
+        
+    }
+    main.home article:hover {
+        
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+    }
+
+    main.home section article div.detalles i:hover{
+        animation: giro 1s alternate infinite;
+    
+    }
+    @keyframes giro {
+        0%{transform: rotatez(0deg);}
+        100%{transform: rotatez(-90deg);}
+    }
+
+
+    
 }

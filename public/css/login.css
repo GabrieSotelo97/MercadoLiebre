@@ -22,3 +22,8 @@
     background-color: var(--Celeste);
     width: 90%;
 }
+.login form input.enviar:hover{
+    
+    background-color: #0022AA;
+    
+}
